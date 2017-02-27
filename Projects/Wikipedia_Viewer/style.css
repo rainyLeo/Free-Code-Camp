@@ -1,0 +1,67 @@
+
+h1 {
+  font-family: "Times New Roman", Georgia, Serif;
+  font-weight: bolder;
+  font-size: 5.5em;
+  margin: 50px 0 10px 0;
+  letter-spacing: 2px;
+}
+
+li {
+  list-style-type: none;
+  dispaly: block;
+  width: 75%;
+  text-align: left;
+  padding: 8px;
+  margin: 10px auto;
+  border: 1px solid #222;
+  border-radius: 4px;
+}
+
+span {
+  margin-right: 15px;
+}
+
+#noResult {
+  font-size: 1.4em;
+  font-style: italic;
+}
+
+li a {
+  font-size: 1.3em;
+}
+
+.inputBox {
+  display: block;
+  width: 50%;
+  height: 38px;
+  font-size: 18px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin: 10px auto;
+ 
+}
+
+button {
+  margin-left: 10px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+  font-size: 1.4em;
+  font-weight: bolder !important;
+  color: #555;
+  background: #f4f4f4;
+  
+}
+
+button a {
+  color: #555;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid blue;
+}
+
+button:focus {
+  outline: none !important;
+  
+}

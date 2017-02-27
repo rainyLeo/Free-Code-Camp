@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="text-center">
+		<h1><span>Wikipedia</span><img src="https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2@2x.png" alt="wiki" height="80"/></h1>
+
+		<form class="form-group">
+			<label for="searchBox"></label>
+			<input type="text" class="inputBox" id="searchBox" />
+			<button class="btn" id="searchBtn" type="button">Wiki Search</button>
+			<button class="btn" type="button"><a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">I'm Feeling Lucky</a></button>
+		</form>
+
+		<ul class="text-center list" id="result">
+
+		</ul>
+		<p class="list" id="noResult"></p>
+	</div>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" charset="utf-8"></script>
+	<script src="index.js"></script>
+</body>
+
+</html>
