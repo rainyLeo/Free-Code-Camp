@@ -5,6 +5,8 @@
 
 [井字棋小游戏](https://codepen.io/rainyleo/full/qNaXPL/)  
 
+[移动方块小游戏](http://codepen.io/rainyleo/pen/VjVkQz)
+
 [Simon 游戏](http://codepen.io/rainyleo/full/mEOgvN/)  
 
 [计算器](http://codepen.io/rainyleo/full/ezzJPQ/)  
